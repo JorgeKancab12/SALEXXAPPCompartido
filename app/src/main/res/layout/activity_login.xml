@@ -44,7 +44,8 @@
 
             <RelativeLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+/>
 
 
             <EditText
@@ -52,12 +53,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:backgroundTint="@android:color/darker_gray"
-                android:drawableLeft="@drawable/icon_email"
+                android:drawableLeft="@drawable/envelope"
                 android:ems="10"
-                android:hint="email"
+                android:hint="  Email"
                 android:inputType="textPersonName"
+                android:translationY="-35dp"
                 android:paddingLeft="5dp" />
 
             <EditText
@@ -65,13 +68,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="25dp"
                 android:layout_marginEnd="8dp"
                 android:backgroundTint="@android:color/darker_gray"
-                android:drawableLeft="@drawable/icon_lock"
+                android:drawableLeft="@drawable/lock"
                 android:ems="10"
-                android:hint="password"
+                android:hint="  Password"
                 android:inputType="textPassword"
+                android:translationY="-35dp"
                 android:paddingLeft="5dp" />
 
             <Button
@@ -81,18 +85,25 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="30dp"
                 android:layout_marginRight="15dp"
-                android:background="#1976d2"
+                android:background="@drawable/bordes_redondos"
                 android:text="Iniciar Sesión"
+                android:translationY="-35dp"
                 android:textColor="#FFF"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                />
 
             <Button
                 android:id="@+id/btn_registrarse"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="15dp"
                 android:text="Registrarse"
-                android:textColor="@color/black"
-                android:textSize="25sp" />
+                android:translationY="-35dp"
+                android:textColor="#FFF"
+                android:textSize="18sp"
+                android:background="@drawable/bordes_redondos"/>
 
 
         </LinearLayout>
