@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    tools:context=".verbos"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:onClick="exit"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="150dp"
+        android:src="@drawable/left"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="141dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="-5dp"
+        android:text="VERBS"
+        android:textColor="@color/white"
+        android:textDirection="ltr"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text=" Los verbos en inglés y su conjugación son algunos de los temas “más importantes, estas son el top 25 más usados."
+        android:textColor="@color/white" />
+
+    <com.jsibbold.zoomage.ZoomageView
+        android:id="@+id/ima"
+        android:layout_width="390dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/cap1"/>
+
+    <com.jsibbold.zoomage.ZoomageView
+        android:id="@+id/imageView2"
+        android:layout_width="390dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/cap2"/>
+
+    <Button
+        android:id="@+id/btnPDF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="121dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/black"
+        android:text="Generar PDF"
+        android:textColor="#008000"
+        app:cornerRadius="15dp"/>
+
+    <Button
+        android:id="@+id/btnQuizVERB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-80dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="-45dp"
+        android:backgroundTint="@color/black"
+        android:text="¿Cuantó sé de VERBOS?"
+        android:textColor="#FFCE30"
+        android:textSize="15dp"
+        app:cornerRadius="15dp" />
+
+
+</LinearLayout>
+

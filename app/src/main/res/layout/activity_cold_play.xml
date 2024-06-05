@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ColdPlay">
+
+    <ImageView
+        android:onClick="exit"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/left"
+        tools:ignore="MissingConstraints"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COLDPLAY"
+        android:textSize="47dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_Yellow"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#52D3F0"
+        android:textSize="20dp"
+        android:text="YELLOW"
+        android:textColor="@color/black"
+        app:cornerRadius="15dp" />
+    <Button
+        android:id="@+id/btn_VLV"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="161dp"
+        android:backgroundTint="#52D3F0"
+        android:textSize="20dp"
+        android:text="Viva la vida"
+        android:textColor="@color/black"
+        app:cornerRadius="15dp" />
+    <Button
+        android:id="@+id/btn_FY"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="221dp"
+        android:backgroundTint="#52D3F0"
+        android:textSize="20dp"
+        android:text="The Scientist"
+        android:textColor="@color/black"
+        app:cornerRadius="15dp" />
+
+
+
+</RelativeLayout>

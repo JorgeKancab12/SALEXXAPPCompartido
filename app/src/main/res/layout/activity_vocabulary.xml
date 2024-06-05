@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    tools:context=".VocabularyActivity"
+    android:orientation="vertical"
+    android:background="@drawable/qw">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="150dp"
+        android:onClick="exit"
+        android:padding="10dp"
+        android:src="@drawable/left"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temas"
+        android:textSize="47dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_verb"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#52D3F0"
+                android:text="VERBS"
+                android:textColor="@color/black"
+                app:cornerRadius="15dp" />
+
+
+            <Button
+                android:id="@+id/btn_cond"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#52D3F0"
+                android:text="CONDITIONALS"
+                android:textColor="@color/black"
+                app:cornerRadius="15dp" />
+
+            <Button
+                android:id="@+id/btn_ToBe"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#52D3F0"
+                android:text="VERB TO BE"
+                android:textColor="@color/black"
+                app:cornerRadius="15dp" />
+
+            <Button
+                android:id="@+id/btn_pron"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#52D3F0"
+                android:text="PRONOUNS"
+                android:textColor="@color/black"
+                app:cornerRadius="15dp" />
+
+            <Button
+                android:id="@+id/btn_com"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#52D3F0"
+                android:text="COMPARATIVES AND SUPERLATIVES"
+                android:textColor="@color/black"
+                app:cornerRadius="15dp" />
+
+            <Button
+                android:id="@+id/btn_Conectors"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#52D3F0"
+                android:textColor="@color/black"
+                android:text="CONECTORS"
+                app:cornerRadius="15dp"
+                />
+            <Button
+                android:id="@+id/btn_ModalVerbs"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#52D3F0"
+                android:textColor="@color/black"
+                android:text="MODAL VERBS"
+                app:cornerRadius="15dp"
+                />
+            <Button
+                android:id="@+id/btn_auxliars"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#52D3F0"
+                android:textColor="@color/black"
+                android:text="AUXILIARY VERBS"
+                app:cornerRadius="15dp"
+                />
+
+            <Button
+                android:id="@+id/btn_PresentCont"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#52D3F0"
+                android:text="PRESENT CONTINUOS"
+                android:textColor="@color/black"
+                app:cornerRadius="15dp" />
+
+            <Button
+                android:id="@+id/btn_PresentPerf"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#52D3F0"
+                android:textColor="@color/black"
+                android:text="PRESENT PERFECT"
+                app:cornerRadius="15dp"
+                />
+
+            <Button
+                android:id="@+id/btn_adjetives"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#52D3F0"
+                android:text="ADJECTIVES"
+                android:textColor="@color/black"
+                app:cornerRadius="15dp" />
+
+            <Button
+                android:id="@+id/btn_gerundio"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#52D3F0"
+                android:text="GERUNDIO"
+                android:textColor="@color/black"
+                app:cornerRadius="15dp" />
+
+            <Button
+                android:id="@+id/btn_superlatives"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#52D3F0"
+                android:text="SUPERLATIVES"
+                android:textColor="@color/black"
+                app:cornerRadius="15dp" />
+
+            <Button
+                android:id="@+id/btn_relativepronouns"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#52D3F0"
+                android:text="RELATIVE PRONOUNS"
+                android:textColor="@color/black"
+                app:cornerRadius="15dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

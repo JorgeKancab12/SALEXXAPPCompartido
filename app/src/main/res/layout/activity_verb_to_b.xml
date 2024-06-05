@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".VerbToB"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:onClick="exit"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/left"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginTop="-10dp"
+        android:text="VERB TO BE"
+        android:textColor="@color/white"
+        android:textDirection="ltr"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="El verbo TO BE, que en castellano se traduce como SER o ESTAR, en el idioma inglés goza de una particular importancia. Su significado depende del sentido de la oración"
+        android:textColor="@color/white" />
+
+    <com.jsibbold.zoomage.ZoomageView
+        android:id="@+id/ima"
+        android:layout_width="450dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/tobe1"/>
+
+    <com.jsibbold.zoomage.ZoomageView
+        android:id="@+id/imageView2"
+        android:layout_width="350dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/tobe2"/>
+
+    <Button
+        android:id="@+id/btnSIGUIENTE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="121dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="-20dp"
+        android:backgroundTint="@color/black"
+        android:text="Siguiente"
+        android:textColor="@color/white"
+        app:cornerRadius="15dp"/>
+
+</LinearLayout>

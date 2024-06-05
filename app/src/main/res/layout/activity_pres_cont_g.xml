@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".PresContG"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <ImageView
+        android:onClick="exit"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:layout_marginRight="150dp"
+        android:src="@drawable/left"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:text="PRESENT CONTINUOS"
+        android:textColor="@color/white"
+        android:textDirection="ltr"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Como ocurre con todos los tiempos verbales del inglés, la actitud del hablante es tan importante como el momento en que ocurre la acción o el evento. Al emplear el ~present continuous~, nos estamos refiriendo a algo que no ha terminado o está incompleto."
+        android:textColor="@color/white" />
+
+    <com.jsibbold.zoomage.ZoomageView
+        android:id="@+id/ima"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/presntcont"/>
+
+
+    <Button
+        android:id="@+id/btnPDF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="121dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="@color/black"
+        android:text="Generar PDF"
+        android:textColor="#008000"
+        app:cornerRadius="15dp"/>
+
+
+</LinearLayout>

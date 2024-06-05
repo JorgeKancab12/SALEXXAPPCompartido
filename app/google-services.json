@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "919509349463",
+    "project_id": "salexx-239cc",
+    "storage_bucket": "salexx-239cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919509349463:android:3ab588b368d78db3ce9f12",
+        "android_client_info": {
+          "package_name": "com.example.salexxapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919509349463-hqesd9c8hscriteldtq9ha0upqq7nf62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD49FjHcE6LiRexSRriNtcVBC3fC8JxoGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "919509349463-hqesd9c8hscriteldtq9ha0upqq7nf62.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".VerbTB2"
+    android:orientation="vertical"
+    android:gravity="center">
+    <ImageView
+        android:onClick="exit"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/left"
+        tools:ignore="MissingConstraints"/>
+
+    <com.jsibbold.zoomage.ZoomageView
+        android:id="@+id/ima"
+        android:layout_width="390dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/tobe3"/>
+
+    <com.jsibbold.zoomage.ZoomageView
+        android:id="@+id/imageView2"
+        android:layout_width="387dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/tobe4"/>
+
+    <Button
+        android:id="@+id/btnPDF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="121dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="-20dp"
+        android:backgroundTint="@color/black"
+        android:text="Generar PDF"
+        android:textColor="#008000"
+        app:cornerRadius="15dp"/>
+
+
+</LinearLayout>

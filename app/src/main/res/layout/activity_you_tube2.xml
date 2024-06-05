@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".YouTube2">
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="150dp"
+        android:padding="10dp"
+        android:src="@drawable/left"
+        android:onClick="exit"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="10dp"
+        android:src="@drawable/youtube"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+            android:id="@+id/btn_RP"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#2E9598"
+            android:text="Relative Pronoun"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="-85dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.201"
+            app:rippleColor="#0965AE" />
+
+
+            <Button
+                android:id="@+id/btn_sup"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#2E9598"
+                android:text="SUPERLATIVOS"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginTop="-475dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.512"
+                app:rippleColor="#0965AE" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
