@@ -5,23 +5,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondoprimarioregistro"
     tools:context=".Insertar">
 
     <androidx.cardview.widget.CardView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="10dp"
-    android:layout_marginStart="25dp"
-    app:cardCornerRadius="10dp"
-    android:layout_marginEnd="25dp"
-    android:layout_marginBottom="35dp"
-    app:cardUseCompatPadding="true"
-    android:elevation="4dp">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="35dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="@android:color/holo_orange_light"
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/fondoregistrosecundario" />
+
         <ImageView
             android:layout_width="151dp"
             android:layout_height="113dp"
             android:layout_marginBottom="40dp"
-            app:srcCompat="@drawable/salexx" />
+            android:cropToPadding="false"
+            android:translationX="100dp"
+            app:srcCompat="@drawable/gatologin" />
 
         <ScrollView
             android:layout_width="match_parent"
@@ -44,11 +56,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="REGÍSTRATE"
-                        android:textColor="@android:color/black"
+                        android:textAlignment="center"
+                        android:translationX="80dp"
+                        android:textColor="@android:color/white"
                         android:textSize="28sp"
-                        android:textStyle="bold"
-                        android:textAlignment="center"/>
-
+                        android:textStyle="bold" />
 
 
                 </RelativeLayout>
@@ -81,6 +93,7 @@
                     android:hint="Password"
                     android:inputType="textPassword"
                     android:padding="10dp" />
+
                 <EditText
                     android:id="@+id/et_Password2"
                     android:layout_width="match_parent"
@@ -94,9 +107,9 @@
                 <Button
                     android:id="@+id/btn_register"
                     android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:layout_marginTop="32dp"
-                    android:background="#1976d2"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/bordes_redondos"
                     android:text="Regístrate"
                     android:textColor="@android:color/white"
                     android:textSize="15dp" />
