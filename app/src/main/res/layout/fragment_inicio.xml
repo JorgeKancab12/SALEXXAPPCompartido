@@ -6,14 +6,8 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Fragments.inicioFragment"
-    android:background="@drawable/fini">
+    android:background="@drawable/fondomenu1">
 
-
-    <ImageView
-        android:id="@+id/avatarimage"
-        android:layout_width="match_parent"
-        android:layout_height="220dp"
-        android:src="@drawable/salexx" />
 
     <ImageView
         android:layout_width="100dp"
@@ -26,16 +20,6 @@
         android:padding="10dp"
         android:src="@drawable/cerrarsesion"
         tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/salexxname"
-        android:layout_width="match_parent"
-        android:layout_height="10dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="-145dp"
-        android:layout_marginBottom="54dp"
-        android:src="@drawable/slog" />
 
 
 
@@ -102,13 +86,15 @@
             app:cardCornerRadius="8dp"
             app:cardElevation="6dp"
             app:layout_columnWeight="1"
-            app:cardBackgroundColor="#29363B"
+            android:background="@drawable/bordes_redondos"
+            app:cardBackgroundColor="#E9D6FF"
             app:layout_rowWeight="1">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
+                android:background="#E9D6FF"
                 android:orientation="vertical">
 
                 <ImageView
@@ -193,7 +179,7 @@
                     android:layout_width="161dp"
                     android:layout_height="102dp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/grammar" />
+                    android:src="@drawable/stikergramatica_preview_rev_1" />
 
                 <TextView
                     android:layout_width="match_parent"
