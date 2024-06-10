@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Fragments.inicioFragment"
-    android:background="@drawable/fondomenu1">
+    android:background="@drawable/fondomenu1"
+    android:orientation="vertical">
 
 
     <ImageView
@@ -21,6 +22,16 @@
         android:src="@drawable/cerrarsesion"
         tools:ignore="MissingConstraints" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/germania_one"
+        android:text="Welcome, to learn"
+        android:textAlignment="center"
+        android:textSize="43dp"
+        android:textColor="#FFC565"
+
+        />
 
 
     <androidx.gridlayout.widget.GridLayout
@@ -30,7 +41,7 @@
         android:layout_below="@+id/avatarimage"
 
         android:layout_marginTop="187dp"
-        android:padding="4dp"
+        android:padding="7dp"
         app:columnCount="2"
         app:rowCount="2">
 
@@ -43,8 +54,8 @@
             android:layout_marginBottom="50dp"
             android:layout_marginTop="70dp"
             android:foreground="?selectableItemBackground"
-            app:cardBackgroundColor="#29363B"
-            app:cardCornerRadius="8dp"
+            app:cardBackgroundColor="#FFDA55"
+            app:cardCornerRadius="10dp"
             app:cardElevation="6dp"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1">
@@ -59,6 +70,7 @@
                     android:layout_width="161dp"
                     android:layout_height="101dp"
                     android:layout_gravity="center_horizontal"
+                    android:scaleType="centerInside"
                     android:src="@drawable/canto" />
 
                 <TextView
@@ -66,8 +78,9 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
                     android:text="Cantar"
+                    android:fontFamily="@font/germania_one"
                     android:textAlignment="center"
-                    android:textColor="#EC1B4B"
+                    android:textColor="#FFF"
                     android:textSize="16sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -83,7 +96,7 @@
             android:layout_marginBottom="50dp"
             android:layout_marginTop="70dp"
             android:foreground="?selectableItemBackground"
-            app:cardCornerRadius="8dp"
+            app:cardCornerRadius="10dp"
             app:cardElevation="6dp"
             app:layout_columnWeight="1"
             android:background="@drawable/bordes_redondos"
@@ -101,15 +114,16 @@
                     android:layout_width="161dp"
                     android:layout_height="101dp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/youtube" />
+                    android:src="@drawable/logoyoutube" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
                     android:text="Youtube"
+                    android:fontFamily="@font/germania_one"
                     android:textAlignment="center"
-                    android:textColor="#EC1B4B"
+                    android:textColor="#FFFF"
                     android:textSize="16sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -124,10 +138,10 @@
             android:layout_marginBottom="10dp"
             android:layout_marginTop="-25dp"
             android:foreground="?selectableItemBackground"
-            app:cardCornerRadius="8dp"
+            app:cardCornerRadius="10dp"
             app:cardElevation="6dp"
             app:layout_columnWeight="1"
-            app:cardBackgroundColor="#29363B"
+            app:cardBackgroundColor="#F4F1E0"
             app:layout_rowWeight="1">
 
             <LinearLayout
@@ -140,15 +154,16 @@
                     android:layout_width="161dp"
                     android:layout_height="102dp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/options" />
+                    android:src="@drawable/puzle" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
                     android:text="Quiz"
+                    android:fontFamily="@font/germania_one"
                     android:textAlignment="center"
-                    android:textColor="#EC1B4B"
+                    android:textColor="#FFFF"
                     android:textSize="16sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -163,10 +178,10 @@
             android:layout_marginBottom="10dp"
             android:layout_marginTop="-25dp"
             android:foreground="?selectableItemBackground"
-            app:cardCornerRadius="8dp"
+            app:cardCornerRadius="10dp"
             app:cardElevation="6dp"
             app:layout_columnWeight="1"
-            app:cardBackgroundColor="#29363B"
+            app:cardBackgroundColor="#33D6DF"
             app:layout_rowWeight="1">
 
             <LinearLayout
@@ -186,8 +201,9 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
                     android:text="Grámatica"
+                    android:fontFamily="@font/germania_one"
                     android:textAlignment="center"
-                    android:textColor="#EC1B4B"
+                    android:textColor="#FFFF"
                     android:textSize="16sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -195,5 +211,17 @@
 
     </androidx.gridlayout.widget.GridLayout>
 
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
 
-</RelativeLayout>
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+
+</LinearLayout>
